@@ -3,6 +3,7 @@
   "displayName": "vscode-http-statuscodes",
   "description": "A small tool to get information about HTTP status codes.",
   "version": "1.0.0",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.75.0"
   },

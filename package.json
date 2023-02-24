@@ -1,6 +1,7 @@
 {
   "name": "http-statuscodes",
-  "displayName": "vscode-http-statuscodes",
+  "publisher": "tobiaswaelde",
+  "displayName": "HTTP Status Codes",
   "description": "A small tool to get information about HTTP status codes.",
   "version": "1.0.2",
   "license": "MIT",

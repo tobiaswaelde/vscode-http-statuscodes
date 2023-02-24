@@ -1,7 +1,7 @@
 {
   "name": "http-statuscodes",
   "publisher": "tobiaswaelde",
-  "displayName": "HTTP Status Codes",
+  "displayName": "HTTP Status Code Overview",
   "description": "A small tool to get information about HTTP status codes.",
   "version": "1.0.3",
   "license": "MIT",

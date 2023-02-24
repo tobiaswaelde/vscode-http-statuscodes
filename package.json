@@ -9,17 +9,27 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:http-statuscodes.helloWorld"
-  ],
+  "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "http-statuscodes.helloWorld",
-        "title": "Hello World"
-      }
-    ]
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "http-statuscodes-explorer",
+          "title": "HTTP Status Codes",
+          "icon": "$(code)"
+        }
+      ]
+    },
+    "views": {
+      "http-statuscodes-explorer": [
+        {
+          "id": "http-statuscodes-explorer",
+          "name": "HTTP Status Codes",
+          "icon": "$(code)"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",

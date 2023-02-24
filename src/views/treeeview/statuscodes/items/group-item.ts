@@ -10,7 +10,7 @@ export class StatusCodeGroupItem extends TreeItem {
 	constructor(public group: StatusCodeGroup) {
 		super(`${group.code} • ${group.title}`, TreeItemCollapsibleState.Expanded);
 
-		if (this.group.description) {
+		if (group.description) {
 			this.tooltip = new MarkdownString(group.description);
 		} else {
 			this.tooltip = '';

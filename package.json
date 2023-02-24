@@ -4,11 +4,29 @@
   "description": "A small tool to get information about HTTP status codes.",
   "version": "1.0.1",
   "license": "MIT",
+  "pricing": "Free",
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#ffffff",
+    "theme": "light"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobiaswaelde/vscode-http-statuscodes"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },
   "categories": [
     "Other"
+  ],
+  "keywords": [
+    "vscode",
+    "vscode-extension",
+    "http",
+    "status",
+    "codes",
+    "tool"
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",

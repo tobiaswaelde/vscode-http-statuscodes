@@ -1,4 +1,3 @@
-import { StatusCodeItem } from './index';
 import { STATUS_CODES } from './../../../../data/status-codes';
 import { MarkdownString, TreeItem, TreeItemCollapsibleState } from 'vscode';
 import { StatusCodeGroup } from '../../../../data/status-codes';
